@@ -6,6 +6,7 @@ import android.animation.Animator;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 setTime();
             }
         });
-
+        //ckajbckj
         imgPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -161,5 +162,8 @@ public class MainActivity extends AppCompatActivity {
                 handler.postDelayed(this::run,500);
             }
         },1000);
+    }
+    void hello(){
+        Log.e("hi","căccssd");
     }
 }
