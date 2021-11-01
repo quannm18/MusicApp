@@ -161,4 +161,7 @@ public class MainActivity extends AppCompatActivity {
             }
         },1000);
     }
+    void mainasd(){
+        System.out.println("Hoài Nam đã vô đây");
+    }
 }
